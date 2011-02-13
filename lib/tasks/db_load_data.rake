@@ -1119,7 +1119,7 @@ namespace :db do
   end # Task: load_initial_data
   
   desc "Useful initial setup task"
-  task :initial_setup => [:generate_security_key, :migrate, :load_initial_data] do
+  task :initial_setup => [:migrate, :load_initial_data] do
   end
   
 end # Namespace: db
