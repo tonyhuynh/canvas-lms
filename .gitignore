@@ -43,7 +43,6 @@ public/*/*/*/*/*/*/*.gz
 public/*/*/*/*/*/*/*/*.gz
 public/*/*/*/*/*/*/*/*/*.gz
 *.swp
-public/assets/*
 doc/api/*
 doc/plugins/*
 .yardoc/*
