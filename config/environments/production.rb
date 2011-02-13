@@ -21,3 +21,5 @@ config.action_view.cache_template_loading            = true
 (File.dirname(__FILE__) + "/" + File.basename(__FILE__, ".rb") + "-local.rb").tap { |localfile|
   eval(File.new(localfile).read) if FileTest.exists?(localfile)
 }
+
+SslRequirement.disable_ssl_check = true
