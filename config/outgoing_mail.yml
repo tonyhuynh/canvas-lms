@@ -1,0 +1,26 @@
+development:
+  address: "smtp.example.com"
+  port: "25"
+  user_name: "user"
+  password: "password"
+  authentication: "plain" # plain, login, or cram_md5
+  domain: "example.com"
+  outgoing_address: "canvas@example.com"
+
+test:
+  address: "smtp.example.com"
+  port: "25"
+  user_name: "user"
+  password: "password"
+  authentication: "plain" # plain, login, or cram_md5
+  domain: "example.com"
+  outgoing_address: "canvas@example.com"
+
+production:
+  address: "smtp.gmail.com"
+  port: 587
+  user_name: "tony@trungtamvietvan.com"
+  password: "Opensesam31010!"
+  authentication: "login" # plain, login, or cram_md5
+  domain: "trungtamvietvan.com"
+  outgoing_address: "contact@trungtramvietvan.com"
