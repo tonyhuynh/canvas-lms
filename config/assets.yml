@@ -1,5 +1,5 @@
 javascript_compressor: closure
-embed_assets: off
+embed_assets: on
 gzip_assets: off
 
 javascripts:
