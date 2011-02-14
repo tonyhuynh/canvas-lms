@@ -14,6 +14,8 @@ gem 'highline',       '1.6.1'
 gem 'fastercsv',      '1.5.3'
 gem 'haml',           '3.0.22'
 gem 'hpricot',        '0.8.2'
+gem 'yui-compressor'
+gem 'closure-compiler'
 gem 'jammit',         '0.6.0'
 # native xml parsing, diigo
 gem 'libxml-ruby',    '1.1.3',  :require => 'xml/libxml'

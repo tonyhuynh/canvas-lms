@@ -104,6 +104,7 @@ DEPENDENCIES
   aws-s3 (= 0.6.2)
   bluecloth (= 2.0.10)
   builder (= 2.1.2)
+  closure-compiler
   compass (= 0.10.5)
   daemons (= 1.1.0)
   diff-lcs (= 1.1.2)
@@ -141,3 +142,4 @@ DEPENDENCIES
   will_paginate (= 2.3.15)
   xml-simple (= 1.0.12)
   yard (= 0.6.3)
+  yui-compressor
