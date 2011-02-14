@@ -180,7 +180,7 @@ class Account < ActiveRecord::Base
     
   def fast_all_courses(opts = {})
     @cached_fast_all_courses ||= {}
-    @cached_fast_all_courses[opts] ||= self.associated_courses.active.for_term(opts[:term]).active_first.limit(opts[:limit]).find(:all, :select => "DISTINCT(courses.id), name, section, courses.workflow_state, courses.course_code")
+    @cached_fast_all_courses[opts] ||= self.associated_courses.active.for_term(opts[:term]).active_first.limit(opts[:limit]).find(:all)
   end
   
   def all_users(limit=250)
